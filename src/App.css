@@ -1,0 +1,55 @@
+.app-container {
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.editor {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.editor #editor {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  background-color: darkslategrey;
+}
+
+.previewer {
+  width: 50%;
+  height: 100%;
+  padding: 15px;
+  overflow: scroll;
+}
+
+textarea {
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.clear-button {
+  position: absolute;
+  right: 15px;
+}
+
+.radio-form {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  align-items: flex-end;
+  right: 15px;
+  top: 35px;
+  color: white;
+}
+
+.radio-form * {
+  padding: 5px 3px;
+}
